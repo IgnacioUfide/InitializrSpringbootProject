@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
+
 <html>
     <head>
         <title>Dinarte</title>
@@ -10,23 +6,76 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <style>h1{color:yellow;}table{color:black }
          a{font-family:fantasy} body{background-color:olive}
-      
+         @import "bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css";
+     
          
          </style>
+         <link rel="stylesheet" type="text/css" href="libs/css/bootstrap.css" />
+                <link rel="stylesheet" type="text/css" href="libs/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="libs/css/estilos.css" />
+        <link rel="stylesheet" href="../templates.layout/style.css" type="text/css">
+        <link rel="stylesheet" href="../CSS/bootstrap.css.css" type="text/css"/>
+        <link rel="stylesheet" href="../CSS/bootstrap.css.css" type="text/css">
+        <link rel="stylesheet" href="../libs/CSS/bootstrap.css.css" type="text/css"/>
+        <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.min.css" type="text/css"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+
+
+
+
+
+
+
+        <script type="text/javascript" src="documentos/libs/JS/jquery.js"></script>
+                <script type="text/javascript" src="documentos/libs/JS/crud.js"></script>
                  
     </head>
   
     <body>
+        
          <a href="index.html">inicio</a>
          <a href="menu.html">menu</a>
          <a href="nosotros.html">nosotros</a>
           <a href="ubicacion.html">ubicacion</a>
                      <a href="opinion.html">opinion</a>
-
-
+                     <br>
+                     <meta name="viewport" content="user-scalable=no,width=device,with" charset="utf-8"/>
+                     
          
         <h1 style="text-align: center;background: chocolate;  ">Dinarte's bar</h1> 
+        <div class="container"></div>
+        <div class="row"></div>
+        <form>
+            <fieldset> 
+                <legend> Mesero</legend>
+                <input type="text" class="form-control" id="item"/>
+                <br/>
+                
+              <legend>cliente</legend>
+             <input type="text" class="form-control" id="cliente"/>
+             <br/>
+              <legend>mesa </legend>
+             <input type="number" class="form-control" id="mesa"/>
+             <br/>
+             <button type="button" id="crear" class="btn btn-success">crear tabla</button>
+             <button type="button" id="insertar" class="btn btn-success">insertar registro</button>
+             <button type="button" id="modificar" class="btn btn-danger">modificar registro</button>
+             <button type="button" id="listar" class="btn btn-success">mostrar/actualizar</button>
+             <button type="button" id="borrar" class="btn btn-danger">eliminar todo</button>
+
+
+            
+            
+            </fieldset>
+        </form>
         
+<hr/>
+<h3>Lista de productos</h3>
+<table class="table table-borderer table-hover" id="listaproductos">
+    
+</table>        
         <h3>combos de la semana</h3>
      
             <table border="1">

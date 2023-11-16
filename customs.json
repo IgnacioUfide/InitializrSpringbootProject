@@ -1,8 +1,13 @@
 {
-    "elements": {},
+    "elements": {
+        "legend": {}
+    },
     "attributes": {
         "\"width": {
             "context": "iframe"
+        },
+        "name": {
+            "context": "meta"
         }
     }
 }
